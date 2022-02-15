@@ -41,7 +41,7 @@ nav{
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
-    margin-right: 9999px;
+    margin-right: 9999px; /* Если этот параметр убрать, то страница пойдет сикось-накось*/
     
 }
 
