@@ -25,7 +25,7 @@ nav{
     float: left;
     line-height: 60px;
     color: #fff;
-    margin-right: 40px;
+    margin-left: 40px;
     font-size: 16px;
     text-transform: uppercase;
 }
@@ -33,7 +33,7 @@ nav{
 .main{
     width: 100%;
     height: 100%;
-    background: url(../img/boy.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+    background: url(../img/Valakas.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
 }
 
 .title_container{
@@ -41,7 +41,6 @@ nav{
     margin: 432px 0px 0px 404px;
     color: #2c384a;
     text-align: center;
-    margin-right: 9999px; /* Если этот параметр убрать, то страница пойдет сикось-накось*/
     
 }
 
@@ -65,20 +64,546 @@ nav{
     color: #6d7682;
     font-size: 13px;
     padding: 0px 14px; 
-    margin: 40px 14px 0 14px
+    margin: 40px 14px 0 14px;
 }
 
 .about_me{
     width: 100%;
-    height: 100px;
-    float: none;
+    height: 500px;
+    float: left;
     text-align: center;
+    margin: 110px 500px 100px 0px;
+    background: url(../img/title_bar.png) 50% 13%/70px 4px no-repeat;
 }
 
 .about_me h3{
-    padding-top: 30px;
+    padding-bottom: 95px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about_me img{
+    overflow: hidden;
+    border-radius: 50%;
 }
 
 .about_me p{
-    padding-top: 30px;
+    width: 730px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 550px;
+}
+
+.about_me input{
+    height: 30px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 6px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 13px; 
+    margin: 25px 14px 0 14px;
+}
+
+.what_i_can_do {
+    width: 100%;
+    height: 520px;
+    float: left;
+    text-align: center;
+    margin-right: 500px;
+    margin-top: 100px;
+    background: url(../img/title_bar.png) 50% 30%/70px 4px no-repeat, url(../img/something1.jpg) 90% 50%/1920px 520px no-repeat;
+}
+
+.what_i_can_do h3{
+    margin-top: 105px;
+    margin-bottom: 145px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.web_design{
+    text-align: center;
+    float: left;
+     width: 215px;
+    margin-left: 355px;
+    
+}
+.web_design h4{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #cf7600;
+}
+
+.development {
+    text-align: center;
+    float: left;
+     width: 215px;
+    margin-left: 80px;
+    
+}
+.development h4{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #cf7600;
+}
+
+.ceo_optimization {
+    text-align: center;
+    float: left;
+     width: 215px;
+    margin-left: 80px;
+    
+}
+.ceo_optimization h4{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #cf7600;
+}
+
+.marketing {
+    text-align: center;
+    float: left;
+     width: 215px;
+    margin-left: 80px;
+    
+}
+.marketing h4{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #cf7600;
+}
+
+.cases {
+    width: 100%;
+    height: 1200px;
+    float: left;
+    text-align: center;
+    background: url(../img/title_bar.png) 50% 15%/70px 4px no-repeat, url(../img/cases.png) -25% 70%/auto auto no-repeat;
+}
+
+.cases h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.case {
+    margin-bottom: 470px;
+}
+
+.case h3{
+    margin-top: 105px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.client{
+    text-align: left;
+    float: left;
+     width: 215px;
+    margin: 175px 0px 0px 330px;
+    color: #3f495a;
+}
+
+.client h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project_name{
+    text-align: left;
+    float: left;
+    width: 850px;
+    margin: -44px 0px 0px 630px;
+    color: #3f495a;
+    line-height: 22px;
+}
+.project_name h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.website{
+    text-align: left;
+    float: left;
+     width: 215px;
+    margin: 235px 0px 0px -215px;
+    color: #3f495a;
+}
+.website h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button{
+    float: left;
+    margin-left: 328px;
+    margin-top: 40px;
+}
+.button input{
+    background: #63b5ae;
+    padding: 15px 45px;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.cost_calculation{
+    float: left;
+    width: 100%;
+    height: 750px;
+    text-align: center;
+}
+
+.cost_calculation h3{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 55px;
+}
+
+.cost_calculation img{
+    margin-left: 90px;
+}
+
+.site_type{
+    float: left;
+    text-align: left;
+    margin-left: 500px;
+}
+.site_type h4{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.site_type select{
+    width: 890px;
+    height: 60px;
+    background: #eeeeee;
+    margin-bottom: 45px;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.design{
+    float: left;
+    text-align: left;
+    margin-left: 500px;
+}
+.design h4{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.design select{
+    width: 890px;
+    height: 60px;
+    background: #eeeeee;
+    margin-bottom: 45px;
+    font-size: 15px;
+    padding-left: 25px;
+}
+
+.adaptability{
+    float: left;
+    text-align: left;
+    margin-left: 500px;
+}
+.adaptability h4{    
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.adaptability select{
+    width: 890px;
+    height: 60px;
+    background: #eeeeee;
+    margin-bottom: 45px;
+    font-size: 15px;
+    padding-left: 25px;
+    
+}
+
+.deadline_n_cost{
+    float: left;
+    width: 890px;
+    margin-left: 500px;
+    text-align: right;
+    color: #1c2534;
+}
+
+.deadline{
+    width: 890px;
+    float: left;
+    text-align: left;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+span.deadline1{
+    margin-left: 810px;
+    font-size: 25px;
+}
+.cost{
+    width: 890px;
+    float: left;
+    text-align: left;
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+span.cost1{
+    margin-left: 765px;
+    font-size: 25px;
+}
+
+.some_statistics{
+    width: 100%;
+    height: 500px;
+    float: left;
+    text-align: center;
+    font-weight: bold
+    font-size: 25px;
+    background: url(../img/title_bar.png) 50% 30%/70px 4px no-repeat, url(../img/something2.jpg) 90% 50%/1920px 520px no-repeat;
+}
+.some_statistics h3{
+    margin-top: 105px;
+    margin-bottom: 120px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.happy_clients{
+    text-align: center;
+    float: left;
+     width: 215px;
+    margin-left: 310px;
+}
+.happy_clients h4{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #323e4f;
+    
+}
+
+.hours_of_work{
+    text-align: center;
+    float: left;
+     width: 215px;
+    margin-left: 80px;
+}
+.hours_of_work h4{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #323e4f;
+    
+}
+
+.projects_done{
+    text-align: center;
+    float: left;
+     width: 215px;
+    margin-left: 80px;
+}
+.projects_done h4{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #323e4f;
+    
+}
+
+.awards_received{
+    text-align: center;
+    float: left;
+     width: 215px;
+    margin-left: 80px;
+}
+.awards_received h4{
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #323e4f;   
+}
+
+.reviews{
+    width: 100%;
+    height: 340px;
+    float: left;
+    text-align: center;
+    margin: 110px 500px 100px 0px;
+    background: url(../img/title_bar.png) 50% 9%/70px 4px no-repeat;
+    color: #243042;
+}
+
+.reviews h3{
+    padding-bottom: 95px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.reviews img{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.reviews p{
+    width: 730px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 550px;
+}
+
+.circles{
+    width: 100%;
+    height: 10px;
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+}
+.circles img{
+    margin-left: 12px;
+}
+
+.contacts_n_message{
+    float: left;
+    width: 100%;
+    height: 810px;
+    background: url(../img/title_bar.png) 50% 24%/70px 4px no-repeat, url(../img/something3.jpg) -25% 70%/100% auto no-repeat;
+    color: #fff;
+}
+
+.my_contacts{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.my_contacts h3{
+    text-transform: uppercase;
+    text-shadow: bold;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 140px;
+    margin-bottom: 65px;
+}
+
+.address{
+    float: left;
+    text-align: center;
+    width: 125px;
+    margin-left: 565px;
+    margin-top: 45px;
+}
+.address p{
+    margin-top: 15px;
+    
+}
+
+.email{
+    float: left;
+    text-align: center;
+    width: 150px;
+    margin-left: 135px;
+    margin-top: 45px;
+}
+.email p{
+    margin-top: 15px;
+}
+
+.phone{
+    float: left;
+    text-align: center;
+    width: 150px;
+    margin-left: 125px;
+    margin-top: 45px;
+}
+.phone p{
+    margin-top: 15px;
+}
+
+.for_your_message{
+    width: 100%;
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+.name{
+    float: left;
+    margin-left: 520px;
+    margin-top: 34px;
+}
+.name input{
+    width: 352px;
+    height: 34px;
+    background: #d2d6dc;
+    padding-left: 13px;
+    
+}
+
+.y_email{
+    float: left;
+    margin-left: 40px;
+    margin-top: 34px;
+}
+.y_email input{
+    width: 352px;
+    height: 34px;
+    background: #d2d6dc;
+    padding-left: 13px;
+    
+}
+
+.message{
+    float: left;
+    margin-left: 520px;
+    margin-top: 15px;
+    
+}
+.message input{
+    width: 744px;
+    height: 95px;
+    background: #d2d6dc;
+    padding-left: 13px;
+    padding-bottom: 70px;
+    
+}
+
+.send{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 25px 25px 0px -10px;
+}
+.send input{
+    color: #fff;
+    border: 2px solid #fff;
+    background: none;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 10px 17px; 
 }
