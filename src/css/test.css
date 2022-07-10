@@ -1,23 +1,349 @@
-@keyframes rotate {
-  0%   {transform:rotate(0deg);}
-  100% {transform:rotate(360deg);}
+@font-face {
+	font-family: 'FranklinGot';
+	src: url('../fonts/FRABK.eot');
+	src: local('☺'), url('../fonts/FRABK.woff') format('woff'), url('../fonts/FRABK.ttf') format('truetype'), url('../fonts/FRABK.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
-.one {
-  width: 1000px;
-  height:900px;
-  overflow: hidden;
-  position: relative;
+body{
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
-.header__square-pic {
-  height: 568px;
-  width: 568px;
-  background-color: #2f80ed;
- position: absolute;
-  right: 0px;
-  top:64px;
-  z-index: 0;
-  animation: rotate 20s infinite  linear;
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    position: fixed;
+    z-index: 10;
 }
- 
+
+.logo{
+    color: #fff;
+    font-size: 20px;
+    line-height: 60px;
+    float: left;
+    
+    font-family: 'FranklinGot', sans-serif;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.btn-white:visited{
+    color: white;
+}
+
+.menu{
+    float: left;
+}
+
+.menu li{
+    margin-left: 40px;
+    float: left;
+    line-height: 60px;
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.menu li a{
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #63b8b6;
+    transform: scale(1.05);
+}
+
+.menu li a:active{
+    transform: scale(0.95);
+}
+
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    background: url(../img/Valakas.png) 90% 100%/auto 85% no-repeat, url(../img/bg.jpg) center/cover no-repeat;
+}
+
+
+
+
+
+
+.title_container{
+    width: 100%;
+    float: left;
+    color: #2c384a;
+    text-align: center;
+}
+
+.title_container h1{
+    font-family: 'Arial', sans-serif;
+    font-size: 72px;
+    font-weight: 600;
+}
+
+.title_container h4{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #79818d;
+}
+
+.title_container input{
+    height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 14px; 
+    margin: 40px 14px 0 14px;
+    
+    
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.title_container input:hover{
+    background: #344051;
+    color: white;
+}
+
+.title_container input:active{
+    transform: scale(0.9);
+}
+
+@media (max-width: 991px){
+    .title_container, .title_container h4, .title_container input{
+        color: white;
+        position: relative;
+        z-index: 3;
+    }
+    .title_container input{
+        border: 2px solid #fff;
+    }
+    .main{
+        position: relative;
+    }
+    
+    .main::after{
+        content: "";
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        background: rgba(0,0,0,0.4);
+    }
+}
+
+
+
+
+
+
+.about_me{
+    width: 100%;
+    height: 720px;
+    float: left;
+    text-align: center;
+    background: url(../img/title_bar.png) 50% 21%/70px 4px no-repeat;
+}
+
+.about_me h3{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about_me img{
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.about_me p{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.about_me .btn{
+    width: 155px;
+    height: 30px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 6px;
+    color: #6d7682;
+    font-size: 13px;
+    
+    transition: all 0.2s;
+    transform: scale(1)
+}
+
+.about_me .btn:hover{
+    transition: all 0.2s;
+    background: #344051;
+    color: white;
+}
+
+.about_me .btn:active{
+    transform: scale(0.9)
+}
+
+
+
+
+
+
+
+.what_i_can_do {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float: left;
+    text-align: center;
+    background: url(../img/title_bar.png) 50% 30%/70px 4px no-repeat, url(../img/something1.jpg) 90% 50%/1920px 520px no-repeat;
+}
+
+.what_i_can_do h3{
+    margin-bottom: 76px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.web_design h4{
+    font-weight: bold;
+    font-size: 17px;
+    color: #cf7600;
+}
+
+.development h4{
+    font-weight: bold;
+    font-size: 17px;
+    color: #cf7600;
+}
+
+.ceo_optimization h4{
+    font-weight: bold;
+    font-size: 17px;
+    color: #cf7600;
+}
+
+.marketing h4{
+    font-weight: bold;
+    font-size: 17px;
+    color: #cf7600;
+}
+
+
+
+
+
+.cases{
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: url(../img/title_bar.png) 50% 13%/70px 4px no-repeat, url(../img/cases.png) 100% 70%/auto auto no-repeat;
+}
+
+.cases h4{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.case{
+    margin-bottom: 470px;
+}
+
+.case h3{
+    margin-top: 105px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.client{
+    text-align: left;
+    float: left;
+     width: 215px;
+    margin-top: 175px;
+    color: #3f495a;
+}
+
+.client h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project_name{
+    text-align: left;
+    float: left;
+    color: #3f495a;
+    line-height: 22px;
+    
+    z-index: 50;
+    position: relative;
+}
+
+.project_name h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.website{
+    text-align: left;
+    float: left;
+     width: 215px;
+    margin: 235px 0px 0px -215px;
+    color: #3f495a;
+}
+
+.website h4{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.button{
+    float: left;
+    margin-left: 328px;
+    margin-top: 40px;
+}
+
+.button input{
+    background-color: #63b5ae;
+    padding: 15px 45px;
+    border-radius: 6px;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 2px solid #63b5ae;
+    
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.button input:hover{
+    background-color: white;
+    color: #63b5ae;
+}
+
+.button input:active{
+    transform: scale(0.9);
+}
